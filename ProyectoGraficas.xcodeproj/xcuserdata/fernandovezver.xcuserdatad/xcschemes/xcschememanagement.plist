@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ProyectoSegundoParcial.xcscheme</key>
+		<key>ProyectoGraficas.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F4BB490D1E8CE80700D8553B</key>
+		<key>F47651051E8CEBCE000D9D09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

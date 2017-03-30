@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4BB49121E8CE80700D8553B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BB49111E8CE80700D8553B /* main.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
-		F4BB491A1E8CE80F00D8553B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BB49191E8CE80F00D8553B /* OpenGL.framework */; };
-		F4BB491C1E8CE81700D8553B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4BB491B1E8CE81700D8553B /* GLUT.framework */; };
+		F476510A1E8CEBCE000D9D09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F47651091E8CEBCE000D9D09 /* main.cpp */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F47651121E8CECAF000D9D09 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47651111E8CECAF000D9D09 /* GLUT.framework */; };
+		F47651141E8CECB4000D9D09 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47651131E8CECB4000D9D09 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F4BB490C1E8CE80700D8553B /* CopyFiles */ = {
+		F47651041E8CEBCE000D9D09 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,55 +25,55 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F4BB490E1E8CE80700D8553B /* ProyectoSegundoParcial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProyectoSegundoParcial; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4BB49111E8CE80700D8553B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		F4BB49191E8CE80F00D8553B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		F4BB491B1E8CE81700D8553B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F47651061E8CEBCE000D9D09 /* ProyectoGraficas */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProyectoGraficas; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47651091E8CEBCE000D9D09 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F47651111E8CECAF000D9D09 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F47651131E8CECB4000D9D09 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4BB490B1E8CE80700D8553B /* Frameworks */ = {
+		F47651031E8CEBCE000D9D09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4BB491C1E8CE81700D8553B /* GLUT.framework in Frameworks */,
-				F4BB491A1E8CE80F00D8553B /* OpenGL.framework in Frameworks */,
+				F47651141E8CECB4000D9D09 /* OpenGL.framework in Frameworks */,
+				F47651121E8CECAF000D9D09 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F4BB49051E8CE80700D8553B = {
+		F47650FD1E8CEBCD000D9D09 = {
 			isa = PBXGroup;
 			children = (
-				F4BB49101E8CE80700D8553B /* ProyectoSegundoParcial */,
-				F4BB490F1E8CE80700D8553B /* Products */,
-				F4BB49181E8CE80F00D8553B /* Frameworks */,
+				F47651081E8CEBCE000D9D09 /* ProyectoGraficas */,
+				F47651071E8CEBCE000D9D09 /* Products */,
+				F47651101E8CECAF000D9D09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F4BB490F1E8CE80700D8553B /* Products */ = {
+		F47651071E8CEBCE000D9D09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4BB490E1E8CE80700D8553B /* ProyectoSegundoParcial */,
+				F47651061E8CEBCE000D9D09 /* ProyectoGraficas */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4BB49101E8CE80700D8553B /* ProyectoSegundoParcial */ = {
+		F47651081E8CEBCE000D9D09 /* ProyectoGraficas */ = {
 			isa = PBXGroup;
 			children = (
-				F4BB49111E8CE80700D8553B /* main.cpp */,
+				F47651091E8CEBCE000D9D09 /* main.cpp */,
 			);
-			path = ProyectoSegundoParcial;
+			path = ProyectoGraficas;
 			sourceTree = "<group>";
 		};
-		F4BB49181E8CE80F00D8553B /* Frameworks */ = {
+		F47651101E8CECAF000D9D09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4BB491B1E8CE81700D8553B /* GLUT.framework */,
-				F4BB49191E8CE80F00D8553B /* OpenGL.framework */,
+				F47651131E8CECB4000D9D09 /* OpenGL.framework */,
+				F47651111E8CECAF000D9D09 /* GLUT.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,68 +81,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4BB490D1E8CE80700D8553B /* ProyectoSegundoParcial */ = {
+		F47651051E8CEBCE000D9D09 /* ProyectoGraficas */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4BB49151E8CE80700D8553B /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcial" */;
+			buildConfigurationList = F476510D1E8CEBCE000D9D09 /* Build configuration list for PBXNativeTarget "ProyectoGraficas" */;
 			buildPhases = (
-				F4BB490A1E8CE80700D8553B /* Sources */,
-				F4BB490B1E8CE80700D8553B /* Frameworks */,
-				F4BB490C1E8CE80700D8553B /* CopyFiles */,
+				F47651021E8CEBCE000D9D09 /* Sources */,
+				F47651031E8CEBCE000D9D09 /* Frameworks */,
+				F47651041E8CEBCE000D9D09 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ProyectoSegundoParcial;
-			productName = ProyectoSegundoParcial;
-			productReference = F4BB490E1E8CE80700D8553B /* ProyectoSegundoParcial */;
+			name = ProyectoGraficas;
+			productName = ProyectoGraficas;
+			productReference = F47651061E8CEBCE000D9D09 /* ProyectoGraficas */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F4BB49061E8CE80700D8553B /* Project object */ = {
+		F47650FE1E8CEBCD000D9D09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Fernando Chávez Rivera";
 				TargetAttributes = {
-					F4BB490D1E8CE80700D8553B = {
+					F47651051E8CEBCE000D9D09 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F4BB49091E8CE80700D8553B /* Build configuration list for PBXProject "ProyectoSegundoParcial" */;
+			buildConfigurationList = F47651011E8CEBCD000D9D09 /* Build configuration list for PBXProject "ProyectoGraficas" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F4BB49051E8CE80700D8553B;
-			productRefGroup = F4BB490F1E8CE80700D8553B /* Products */;
+			mainGroup = F47650FD1E8CEBCD000D9D09;
+			productRefGroup = F47651071E8CEBCE000D9D09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4BB490D1E8CE80700D8553B /* ProyectoSegundoParcial */,
+				F47651051E8CEBCE000D9D09 /* ProyectoGraficas */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4BB490A1E8CE80700D8553B /* Sources */ = {
+		F47651021E8CEBCE000D9D09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4BB49121E8CE80700D8553B /* main.cpp in Sources */,
+				F476510A1E8CEBCE000D9D09 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F4BB49131E8CE80700D8553B /* Debug */ = {
+		F476510B1E8CEBCE000D9D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		F4BB49141E8CE80700D8553B /* Release */ = {
+		F476510C1E8CEBCE000D9D09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,14 +229,14 @@
 			};
 			name = Release;
 		};
-		F4BB49161E8CE80700D8553B /* Debug */ = {
+		F476510E1E8CEBCE000D9D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		F4BB49171E8CE80700D8553B /* Release */ = {
+		F476510F1E8CEBCE000D9D09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -246,24 +246,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4BB49091E8CE80700D8553B /* Build configuration list for PBXProject "ProyectoSegundoParcial" */ = {
+		F47651011E8CEBCD000D9D09 /* Build configuration list for PBXProject "ProyectoGraficas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4BB49131E8CE80700D8553B /* Debug */,
-				F4BB49141E8CE80700D8553B /* Release */,
+				F476510B1E8CEBCE000D9D09 /* Debug */,
+				F476510C1E8CEBCE000D9D09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4BB49151E8CE80700D8553B /* Build configuration list for PBXNativeTarget "ProyectoSegundoParcial" */ = {
+		F476510D1E8CEBCE000D9D09 /* Build configuration list for PBXNativeTarget "ProyectoGraficas" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4BB49161E8CE80700D8553B /* Debug */,
-				F4BB49171E8CE80700D8553B /* Release */,
+				F476510E1E8CEBCE000D9D09 /* Debug */,
+				F476510F1E8CEBCE000D9D09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F4BB49061E8CE80700D8553B /* Project object */;
+	rootObject = F47650FE1E8CEBCD000D9D09 /* Project object */;
 }

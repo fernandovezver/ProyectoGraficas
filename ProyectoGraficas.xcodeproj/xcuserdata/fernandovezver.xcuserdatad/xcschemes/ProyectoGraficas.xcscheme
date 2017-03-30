@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F4BB490D1E8CE80700D8553B"
-               BuildableName = "ProyectoSegundoParcial"
-               BlueprintName = "ProyectoSegundoParcial"
-               ReferencedContainer = "container:ProyectoSegundoParcial.xcodeproj">
+               BlueprintIdentifier = "F47651051E8CEBCE000D9D09"
+               BuildableName = "ProyectoGraficas"
+               BlueprintName = "ProyectoGraficas"
+               ReferencedContainer = "container:ProyectoGraficas.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4BB490D1E8CE80700D8553B"
-            BuildableName = "ProyectoSegundoParcial"
-            BlueprintName = "ProyectoSegundoParcial"
-            ReferencedContainer = "container:ProyectoSegundoParcial.xcodeproj">
+            BlueprintIdentifier = "F47651051E8CEBCE000D9D09"
+            BuildableName = "ProyectoGraficas"
+            BlueprintName = "ProyectoGraficas"
+            ReferencedContainer = "container:ProyectoGraficas.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4BB490D1E8CE80700D8553B"
-            BuildableName = "ProyectoSegundoParcial"
-            BlueprintName = "ProyectoSegundoParcial"
-            ReferencedContainer = "container:ProyectoSegundoParcial.xcodeproj">
+            BlueprintIdentifier = "F47651051E8CEBCE000D9D09"
+            BuildableName = "ProyectoGraficas"
+            BlueprintName = "ProyectoGraficas"
+            ReferencedContainer = "container:ProyectoGraficas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F4BB490D1E8CE80700D8553B"
-            BuildableName = "ProyectoSegundoParcial"
-            BlueprintName = "ProyectoSegundoParcial"
-            ReferencedContainer = "container:ProyectoSegundoParcial.xcodeproj">
+            BlueprintIdentifier = "F47651051E8CEBCE000D9D09"
+            BuildableName = "ProyectoGraficas"
+            BlueprintName = "ProyectoGraficas"
+            ReferencedContainer = "container:ProyectoGraficas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
